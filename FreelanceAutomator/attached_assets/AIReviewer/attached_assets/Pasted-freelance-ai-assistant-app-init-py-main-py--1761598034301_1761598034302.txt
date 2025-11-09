@@ -1,0 +1,120 @@
+freelance-ai-assistant/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py                 # Точка входа
+│   │
+│   ├── core/                   # Ядро приложения
+│   │   ├── __init__.py
+│   │   ├── config.py           # Конфигурация
+│   │   ├── security.py         # Шифрование, безопасность
+│   │   ├── exceptions.py       # Кастомные исключения
+│   │   └── constants.py        # Константы
+│   │
+│   ├── platforms/              # Интеграции с платформами
+│   │   ├── __init__.py
+│   │   ├── base_platform.py    # Базовый класс платформы
+│   │   ├── upwork/
+│   │   │   ├── __init__.py
+│   │   │   ├── client.py       # API клиент Upwork
+│   │   │   ├── parser.py       # Парсер заданий
+│   │   │   └── models.py       # Модели данных Upwork
+│   │   ├── fl_ru/
+│   │   │   ├── __init__.py
+│   │   │   ├── client.py
+│   │   │   └── parser.py
+│   │   └── kwork/
+│   │       ├── __init__.py
+│   │       └── parser.py
+│   │
+│   ├── ai/                     # Модуль ИИ
+│   │   ├── __init__.py
+│   │   ├── base_generator.py   # Базовый генератор
+│   │   ├── openai_client.py    # Клиент OpenAI
+│   │   ├── prompt_templates/   # Шаблоны промптов
+│   │   │   ├── __init__.py
+│   │   │   ├── reviews.py      # Шаблоны для отзывов
+│   │   │   ├── comments.py     # Шаблоны для комментариев
+│   │   │   └── posts.py        # Шаблоны для постов
+│   │   └── content_analyzer.py # Анализатор контента
+│   │
+│   ├── database/               # Работа с данными
+│   │   ├── __init__.py
+│   │   ├── models.py           # SQLAlchemy модели
+│   │   ├── crud.py             # CRUD операции
+│   │   ├── migrations/         # Миграции базы данных
+│   │   └── session.py          # Сессии БД
+│   │
+│   ├── tasks/                  # Фоновые задачи
+│   │   ├── __init__.py
+│   │   ├── scheduler.py        # Планировщик задач
+│   │   ├── job_scraper.py      # Сбор заданий
+│   │   ├── content_generator.py # Генерация контента
+│   │   └── submission_manager.py # Управление отправкой
+│   │
+│   ├── filters/                # Фильтры заданий
+│   │   ├── __init__.py
+│   │   ├── base_filter.py      # Базовый фильтр
+│   │   ├── complexity_filter.py # Фильтр сложности
+│   │   ├── category_filter.py  # Фильтр категорий
+│   │   └── price_filter.py     # Фильтр цены
+│   │
+│   ├── utils/                  # Вспомогательные утилиты
+│   │   ├── __init__.py
+│   │   ├── logger.py           # Логгирование
+│   │   ├── rate_limiter.py     # Ограничитель запросов
+│   │   ├── proxy_manager.py    # Менеджер прокси
+│   │   ├── captcha_solver.py   # Решение капчи
+│   │   └── helpers.py          # Вспомогательные функции
+│   │
+│   └── web/                    # Веб-интерфейс
+│       ├── __init__.py
+│       ├── routes.py           # API маршруты
+│       ├── templates/          # HTML шаблоны
+│       │   ├── base.html
+│       │   ├── dashboard.html
+│       │   └── settings.html
+│       ├── static/             # Статические файлы
+│       │   ├── css/
+│       │   ├── js/
+│       │   └── images/
+│       └── auth.py             # Аутентификация
+│
+├── tests/                      # Тесты
+│   ├── __init__.py
+│   ├── test_platforms/
+│   ├── test_ai/
+│   ├── test_filters/
+│   └── conftest.py
+│
+├── data/                       # Данные
+│   ├── config/
+│   │   ├── default.yaml        # Конфигурация по умолчанию
+│   │   └── platforms.yaml      # Настройки платформ
+│   ├── models/                 # ML модели
+│   ├── proxies.txt             # Список прокси
+│   └── user_agents.txt         # User-Agent строки
+│
+├── logs/                       # Логи
+│   ├── app.log
+│   ├── errors.log
+│   └── debug.log
+│
+├── docs/                       # Документация
+│   ├── setup.md
+│   ├── api.md
+│   └── deployment.md
+│
+├── scripts/                    # Вспомогательные скрипты
+│   ├── install.sh
+│   ├── deploy.sh
+│   └── backup.sh
+│
+├── requirements.txt            # Зависимости Python
+├── requirements-dev.txt        # Зависимости для разработки
+├── .env.example               # Пример переменных окружения
+├── .gitignore
+├── docker-compose.yml         # Docker Compose
+├── Dockerfile
+├── config.py                  # Основной конфиг
+└── README.md

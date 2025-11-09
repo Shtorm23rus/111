@@ -1,0 +1,57 @@
+# Web Framework
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# AI Integration
+anthropic==0.39.0
+
+# Web Scraping
+beautifulsoup4==4.12.2
+selenium==4.15.2
+requests==2.31.0
+trafilatura==1.12.0
+
+# Database
+SQLAlchemy==2.0.23
+alembic==1.13.0
+
+# Task Scheduling
+APScheduler==3.10.4
+
+# Utilities
+python-dotenv==1.0.0
+pydantic==2.5.0
+PyYAML==6.0.1
+
+# Rate Limiting
+ratelimit==2.2.1
+alembic
+APScheduler
+beautifulsoup4
+Flask
+Flask-CORS
+pydantic
+python-dotenv
+PyYAML
+ratelimit
+requests
+selenium
+SQLAlchemy
+psycopg2-binary
+feedparser
+alembic
+anthropic
+APScheduler
+beautifulsoup4
+feedparser
+Flask
+Flask-CORS
+psycopg2-binary
+pydantic
+python-dotenv
+PyYAML
+ratelimit
+requests
+selenium
+SQLAlchemy
+trafilatura

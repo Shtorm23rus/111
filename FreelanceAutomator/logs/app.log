@@ -1,0 +1,583 @@
+2025-10-27 21:01:15,632 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:01:18,970 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:18,970 - __main__ - INFO - Database initialized
+2025-10-27 21:01:18,972 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:01:18,973 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:18,973 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:18,974 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:01:18,974 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:01:18,974 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:01:18,975 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:01:18,975 - __main__ - INFO - Scheduler started
+2025-10-27 21:01:18,997 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.88.162:5000
+2025-10-27 21:01:18,999 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 21:01:19,001 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:01:20,002 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:01:20,071 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:20,071 - __main__ - INFO - Database initialized
+2025-10-27 21:01:20,072 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:01:20,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:20,073 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:20,074 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:01:20,074 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:01:20,075 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:01:20,075 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:01:20,075 - __main__ - INFO - Scheduler started
+2025-10-27 21:01:20,089 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:01:20,091 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:01:20,127 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:20,136 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:01:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-27 21:01:24,322 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:24,327 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-10-27 21:01:25,087 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:01:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-27 21:01:25,088 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:01:25] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-27 21:01:25,123 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:01:25] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Leh50TMr4DExDiPwUwbI HTTP/1.1" 200 -
+2025-10-27 21:01:25,138 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:01:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-27 21:01:25,178 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:25] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-27 21:01:26,122 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:26] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-27 21:01:41,827 - werkzeug - INFO -  * Detected change in '/home/runner/workspace/app/__init__.py', reloading
+2025-10-27 21:01:41,986 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:01:42,907 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:01:42,952 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:42,952 - __main__ - INFO - Database initialized
+2025-10-27 21:01:42,953 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:01:42,953 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:42,954 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:42,954 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:01:42,954 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:01:42,955 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:01:42,955 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:01:42,955 - __main__ - INFO - Scheduler started
+2025-10-27 21:01:42,964 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:01:42,965 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:01:48,499 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:01:48,546 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:48,546 - __main__ - INFO - Database initialized
+2025-10-27 21:01:48,547 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:01:48,547 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:48,548 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:48,549 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:01:48,549 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:01:48,549 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:01:48,549 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:01:48,549 - __main__ - INFO - Scheduler started
+2025-10-27 21:01:48,562 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.88.162:5000
+2025-10-27 21:01:48,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 21:01:48,563 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:01:49,418 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:01:49,462 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:49,462 - __main__ - INFO - Database initialized
+2025-10-27 21:01:49,463 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:01:49,463 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:49,464 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:01:49,464 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:01:49,464 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:01:49,465 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:01:49,465 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:01:49,465 - __main__ - INFO - Scheduler started
+2025-10-27 21:01:49,474 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:01:49,475 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:01:49,552 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:49,560 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:49] "GET / HTTP/1.1" 200 -
+2025-10-27 21:01:50,454 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:50,460 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:50] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:01:50,468 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:01:50,469 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:01:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:02:20,498 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:02:20,503 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:02:20] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:02:50,491 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:02:50,494 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:02:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:03:20,489 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:03:20,492 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:03:20] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:03:50,486 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:03:50,489 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:03:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:03:50,806 - werkzeug - INFO -  * Detected change in '/home/runner/workspace/app/database/models.py', reloading
+2025-10-27 21:03:51,119 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:03:52,101 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:03:52,205 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:03:52,206 - __main__ - INFO - Database initialized
+2025-10-27 21:03:52,207 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:03:52,207 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:03:52,208 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:03:52,209 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:03:52,209 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:03:52,209 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:03:52,211 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:03:52,211 - __main__ - INFO - Scheduler started
+2025-10-27 21:03:52,221 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:03:52,225 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:04:01,606 - werkzeug - INFO -  * Detected change in '/home/runner/workspace/app/platforms/upwork/parser.py', reloading
+2025-10-27 21:04:01,821 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:04:02,850 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:04:02,918 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:02,919 - __main__ - INFO - Database initialized
+2025-10-27 21:04:02,920 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:04:02,921 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:02,921 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:02,922 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:04:02,923 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:04:02,923 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:04:02,923 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:04:02,924 - __main__ - INFO - Scheduler started
+2025-10-27 21:04:02,940 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:04:02,950 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:04:20,495 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:20,512 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:04:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-27 21:04:32,419 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:04:32,465 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:32,465 - __main__ - INFO - Database initialized
+2025-10-27 21:04:32,466 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:04:32,467 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:32,467 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:32,468 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:04:32,468 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:04:32,468 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:04:32,468 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:04:32,468 - __main__ - INFO - Scheduler started
+2025-10-27 21:04:32,480 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.88.162:5000
+2025-10-27 21:04:32,480 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 21:04:32,482 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:04:33,300 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:04:33,363 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:33,363 - __main__ - INFO - Database initialized
+2025-10-27 21:04:33,364 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:04:33,365 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:33,366 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:33,367 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:04:33,367 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:04:33,367 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:04:33,374 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:04:33,375 - __main__ - INFO - Scheduler started
+2025-10-27 21:04:33,391 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:04:33,392 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:04:37,652 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:37,659 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:04:37] "GET / HTTP/1.1" 200 -
+2025-10-27 21:04:39,149 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:39,164 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:04:39] "[35m[1mGET /api/jobs HTTP/1.1[0m" 500 -
+2025-10-27 21:04:40,016 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:40,025 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:04:40] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-27 21:04:47,268 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:47,276 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:04:47] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-27 21:04:57,552 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:04:57,629 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:57,629 - __main__ - INFO - Database initialized
+2025-10-27 21:04:57,630 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:04:57,631 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:57,631 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:57,632 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:04:57,632 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:04:57,632 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:04:57,633 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:04:57,633 - __main__ - INFO - Scheduler started
+2025-10-27 21:04:57,651 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.88.162:5000
+2025-10-27 21:04:57,652 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-10-27 21:04:57,655 - werkzeug - INFO -  * Restarting with stat
+2025-10-27 21:04:58,556 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:04:58,609 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:58,609 - __main__ - INFO - Database initialized
+2025-10-27 21:04:58,610 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:04:58,610 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:58,611 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:04:58,611 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:04:58,612 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:04:58,612 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:04:58,612 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:04:58,612 - __main__ - INFO - Scheduler started
+2025-10-27 21:04:58,621 - werkzeug - WARNING -  * Debugger is active!
+2025-10-27 21:04:58,621 - werkzeug - INFO -  * Debugger PIN: 961-398-153
+2025-10-27 21:04:58,886 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:04:58,893 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:04:58] "GET / HTTP/1.1" 200 -
+2025-10-27 21:05:05,190 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:05:05,202 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:05:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:05:05,215 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:05:05,221 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:05:05] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:05:07,761 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:05:07,765 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:05:07] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:05:15,146 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:05:15,148 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:05:15] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:05:35,209 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:05:35,211 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:05:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:06:05,220 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:06:05,222 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:06:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:06:35,220 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:06:35,224 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:06:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:06:57,095 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:06:57,096 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:06:57] "GET / HTTP/1.1" 200 -
+2025-10-27 21:07:03,132 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:07:03,137 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:07:03,139 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:07:03] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:07:03,140 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:07:03] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:07:03,212 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:07:03,212 - werkzeug - INFO - 127.0.0.1 - - [27/Oct/2025 21:07:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-27 21:07:05,227 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:07:05,229 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:07:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:07:35,890 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:07:35,893 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:07:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:08:05,903 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:08:05,904 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:08:05] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:08:35,212 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:08:35,214 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:08:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:09:06,579 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:09:06,581 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:09:06] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:09:20,013 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:09:20,014 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:09:20,015 - app.tasks.job_scraper - INFO - Starting job scraping from upwork
+2025-10-27 21:09:20,015 - app.platforms.upwork.parser - INFO - Fetching jobs from Upwork category: reviews
+2025-10-27 21:09:20,141 - app.platforms.upwork.parser - INFO - Successfully fetched 0 jobs from Upwork
+2025-10-27 21:09:20,142 - app.filters.complexity_filter - INFO - ComplexityFilter: 0 -> 0 jobs
+2025-10-27 21:09:20,142 - app.filters.category_filter - INFO - CategoryFilter: 0 -> 0 jobs
+2025-10-27 21:09:20,142 - app.filters.price_filter - INFO - PriceFilter: 0 -> 0 jobs
+2025-10-27 21:09:20,142 - app.tasks.job_scraper - INFO - After filtering: 0 jobs remain
+2025-10-27 21:09:20,142 - app.tasks.job_scraper - INFO - Saved 0 new jobs to database
+2025-10-27 21:09:20,143 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:09:20] "POST /api/scrape HTTP/1.1" 200 -
+2025-10-27 21:09:23,929 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:09:23,932 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:09:23] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:09:23,934 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:09:23,939 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:09:23] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:09:35,207 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:09:35,209 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:09:35] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:12:47,948 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:12:47,949 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:12:47] "GET / HTTP/1.1" 200 -
+2025-10-27 21:12:48,830 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:12:48,832 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:12:48] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:12:49,256 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:12:49,258 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:12:49] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:13:18,859 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:13:18,863 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:13:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:13:50,363 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:13:50,365 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:13:50] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:14:18,841 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:14:18,843 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:14:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:14:48,845 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:14:48,851 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:14:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:14:57,631 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:24:57 UTC)" (scheduled at 2025-10-27 21:14:57.631309+00:00)
+2025-10-27 21:14:57,632 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:14:57,637 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:14:57,638 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:14:57,638 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:24:57 UTC)" executed successfully
+2025-10-27 21:14:58,611 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:24:58 UTC)" (scheduled at 2025-10-27 21:14:58.611126+00:00)
+2025-10-27 21:14:58,612 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:14:58,616 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:14:58,618 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:14:58,618 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:24:58 UTC)" executed successfully
+2025-10-27 21:15:18,860 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:15:18,866 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:15:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:15:48,869 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:15:48,875 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:15:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:16:18,858 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:16:18,863 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:16:18] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:16:48,845 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:16:48,849 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:16:48] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:20:55,381 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:20:55,382 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:20:55] "GET / HTTP/1.1" 200 -
+2025-10-27 21:20:56,422 - app.utils.logger - INFO - Logger initialized successfully
+2025-10-27 21:20:56,516 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:20:56,517 - __main__ - INFO - Database initialized
+2025-10-27 21:20:56,518 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-10-27 21:20:56,525 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:20:56,527 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-10-27 21:20:56,534 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-10-27 21:20:56,535 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-10-27 21:20:56,536 - apscheduler.scheduler - INFO - Scheduler started
+2025-10-27 21:20:56,537 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-10-27 21:20:56,537 - __main__ - INFO - Scheduler started
+2025-10-27 21:20:57,522 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:20:57,525 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:20:57] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:20:57,600 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:20:57,606 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:20:57] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:21:26,305 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:21:26,309 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:21:26] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:23:37,486 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:23:37,487 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:23:37] "GET / HTTP/1.1" 200 -
+2025-10-27 21:23:38,518 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:23:38,528 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:23:38] "GET /api/jobs HTTP/1.1" 200 -
+2025-10-27 21:23:38,966 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:23:38,969 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:23:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:24:08,533 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:24:08,537 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:24:08] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:24:38,552 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:24:38,556 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:24:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:24:57,631 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:34:57 UTC)" (scheduled at 2025-10-27 21:24:57.631309+00:00)
+2025-10-27 21:24:57,632 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:24:57,637 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:24:57,639 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:24:57,640 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:34:57 UTC)" executed successfully
+2025-10-27 21:24:58,611 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:34:58 UTC)" (scheduled at 2025-10-27 21:24:58.611126+00:00)
+2025-10-27 21:24:58,611 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:24:58,615 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:24:58,617 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:24:58,617 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:34:58 UTC)" executed successfully
+2025-10-27 21:25:08,537 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:25:08,542 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:25:08] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:25:38,528 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:25:38,530 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:25:38] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:26:08,535 - app.database.session - INFO - Database initialized successfully
+2025-10-27 21:26:08,537 - werkzeug - INFO - 172.31.88.162 - - [27/Oct/2025 21:26:08] "GET /api/stats HTTP/1.1" 200 -
+2025-10-27 21:34:57,631 - apscheduler.executors.default - INFO - Running job "TaskScheduler.scrape_jobs_task (trigger: interval[0:30:00], next run at: 2025-10-27 22:04:57 UTC)" (scheduled at 2025-10-27 21:34:57.631037+00:00)
+2025-10-27 21:34:57,631 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:44:57 UTC)" (scheduled at 2025-10-27 21:34:57.631309+00:00)
+2025-10-27 21:34:57,632 - app.tasks.scheduler - INFO - Running scheduled job scraping
+2025-10-27 21:34:57,632 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:34:57,632 - app.tasks.job_scraper - INFO - Starting job scraping from upwork
+2025-10-27 21:34:57,633 - app.platforms.upwork.parser - INFO - Fetching jobs from Upwork category: reviews
+2025-10-27 21:34:57,634 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:34:57,635 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:34:57,635 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:44:57 UTC)" executed successfully
+2025-10-27 21:34:57,713 - app.platforms.upwork.parser - INFO - Successfully fetched 0 jobs from Upwork
+2025-10-27 21:34:57,713 - app.filters.complexity_filter - INFO - ComplexityFilter: 0 -> 0 jobs
+2025-10-27 21:34:57,713 - app.filters.category_filter - INFO - CategoryFilter: 0 -> 0 jobs
+2025-10-27 21:34:57,713 - app.filters.price_filter - INFO - PriceFilter: 0 -> 0 jobs
+2025-10-27 21:34:57,713 - app.tasks.job_scraper - INFO - After filtering: 0 jobs remain
+2025-10-27 21:34:57,714 - app.tasks.job_scraper - INFO - Saved 0 new jobs to database
+2025-10-27 21:34:57,714 - app.tasks.scheduler - INFO - Scraping result: {'status': 'success', 'jobs_found': 0, 'jobs_saved': 0}
+2025-10-27 21:34:57,714 - apscheduler.executors.default - INFO - Job "TaskScheduler.scrape_jobs_task (trigger: interval[0:30:00], next run at: 2025-10-27 22:04:57 UTC)" executed successfully
+2025-10-27 21:34:58,611 - apscheduler.executors.default - INFO - Running job "TaskScheduler.scrape_jobs_task (trigger: interval[0:30:00], next run at: 2025-10-27 22:04:58 UTC)" (scheduled at 2025-10-27 21:34:58.610890+00:00)
+2025-10-27 21:34:58,611 - app.tasks.scheduler - INFO - Running scheduled job scraping
+2025-10-27 21:34:58,611 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:44:58 UTC)" (scheduled at 2025-10-27 21:34:58.611126+00:00)
+2025-10-27 21:34:58,612 - app.tasks.job_scraper - INFO - Starting job scraping from upwork
+2025-10-27 21:34:58,612 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-10-27 21:34:58,612 - app.platforms.upwork.parser - INFO - Fetching jobs from Upwork category: reviews
+2025-10-27 21:34:58,619 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-10-27 21:34:58,619 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-10-27 21:34:58,620 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-10-27 21:44:58 UTC)" executed successfully
+2025-10-27 21:34:58,702 - app.platforms.upwork.parser - INFO - Successfully fetched 0 jobs from Upwork
+2025-10-27 21:34:58,702 - app.filters.complexity_filter - INFO - ComplexityFilter: 0 -> 0 jobs
+2025-10-27 21:34:58,702 - app.filters.category_filter - INFO - CategoryFilter: 0 -> 0 jobs
+2025-10-27 21:34:58,703 - app.filters.price_filter - INFO - PriceFilter: 0 -> 0 jobs
+2025-10-27 21:34:58,703 - app.tasks.job_scraper - INFO - After filtering: 0 jobs remain
+2025-10-27 21:34:58,703 - app.tasks.job_scraper - INFO - Saved 0 new jobs to database
+2025-10-27 21:34:58,703 - app.tasks.scheduler - INFO - Scraping result: {'status': 'success', 'jobs_found': 0, 'jobs_saved': 0}
+2025-10-27 21:34:58,703 - apscheduler.executors.default - INFO - Job "TaskScheduler.scrape_jobs_task (trigger: interval[0:30:00], next run at: 2025-10-27 22:04:58 UTC)" executed successfully
+2025-11-06 21:07:31,183 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-06 21:07:33,014 - app.database.session - INFO - Database initialized successfully
+2025-11-06 21:07:33,015 - __main__ - INFO - Database initialized
+2025-11-06 21:07:33,015 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-06 21:07:33,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-06 21:07:33,017 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-06 21:07:33,020 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-06 21:07:33,021 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-06 21:07:33,021 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-06 21:07:33,021 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-06 21:07:33,021 - __main__ - INFO - Scheduler started
+2025-11-06 21:07:33,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.71.130:5000
+2025-11-06 21:07:33,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-06 21:07:33,041 - werkzeug - INFO -  * Restarting with stat
+2025-11-06 21:07:34,154 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-06 21:07:34,245 - app.database.session - INFO - Database initialized successfully
+2025-11-06 21:07:34,246 - __main__ - INFO - Database initialized
+2025-11-06 21:07:34,246 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-06 21:07:34,247 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-06 21:07:34,247 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-06 21:07:34,248 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-06 21:07:34,248 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-06 21:07:34,249 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-06 21:07:34,249 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-06 21:07:34,249 - __main__ - INFO - Scheduler started
+2025-11-06 21:07:34,261 - werkzeug - WARNING -  * Debugger is active!
+2025-11-06 21:07:34,263 - werkzeug - INFO -  * Debugger PIN: 719-877-108
+2025-11-06 21:07:59,897 - app.database.session - INFO - Database initialized successfully
+2025-11-06 21:07:59,958 - werkzeug - INFO - 172.31.71.130 - - [06/Nov/2025 21:07:59] "GET / HTTP/1.1" 200 -
+2025-11-06 21:08:00,293 - app.database.session - INFO - Database initialized successfully
+2025-11-06 21:08:00,306 - werkzeug - INFO - 172.31.71.130 - - [06/Nov/2025 21:08:00] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-06 21:08:00,472 - app.database.session - INFO - Database initialized successfully
+2025-11-06 21:08:00,475 - werkzeug - INFO - 172.31.71.130 - - [06/Nov/2025 21:08:00] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:04:03,985 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-09 15:04:06,896 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:06,896 - __main__ - INFO - Database initialized
+2025-11-09 15:04:06,897 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:04:06,898 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:04:06,898 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:04:06,900 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-09 15:04:06,903 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-09 15:04:06,903 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-09 15:04:06,904 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-09 15:04:06,904 - __main__ - INFO - Scheduler started
+2025-11-09 15:04:06,917 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.98.66:5000
+2025-11-09 15:04:06,918 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 15:04:06,921 - werkzeug - INFO -  * Restarting with stat
+2025-11-09 15:04:08,109 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-09 15:04:08,146 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:08,146 - __main__ - INFO - Database initialized
+2025-11-09 15:04:08,147 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:04:08,148 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:04:08,148 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:04:08,149 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-09 15:04:08,149 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-09 15:04:08,149 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-09 15:04:08,149 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-09 15:04:08,150 - __main__ - INFO - Scheduler started
+2025-11-09 15:04:08,160 - werkzeug - WARNING -  * Debugger is active!
+2025-11-09 15:04:08,161 - werkzeug - INFO -  * Debugger PIN: 141-134-830
+2025-11-09 15:04:08,218 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:08,225 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:04:08] "GET / HTTP/1.1" 200 -
+2025-11-09 15:04:08,635 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:08,652 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:04:08] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:04:08,860 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:08,864 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:04:08] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:04:38,655 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:38,663 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:04:38] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:04:38,764 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:38,766 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:04:38] "GET / HTTP/1.1" 200 -
+2025-11-09 15:04:46,187 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:46,190 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:04:46] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:04:46,199 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:46,202 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:04:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:04:46,277 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:46,278 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:04:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-09 15:04:54,440 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:04:54,441 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:04:54,441 - app.tasks.job_scraper - INFO - Starting job scraping from upwork
+2025-11-09 15:04:54,441 - app.platforms.upwork.parser - INFO - Fetching jobs from Upwork category: reviews
+2025-11-09 15:04:54,557 - app.platforms.upwork.parser - INFO - Successfully fetched 0 jobs from Upwork
+2025-11-09 15:04:54,557 - app.filters.complexity_filter - INFO - ComplexityFilter: 0 -> 0 jobs
+2025-11-09 15:04:54,557 - app.filters.category_filter - INFO - CategoryFilter: 0 -> 0 jobs
+2025-11-09 15:04:54,557 - app.filters.price_filter - INFO - PriceFilter: 0 -> 0 jobs
+2025-11-09 15:04:54,557 - app.tasks.job_scraper - INFO - After filtering: 0 jobs remain
+2025-11-09 15:04:54,558 - app.tasks.job_scraper - INFO - Saved 0 new jobs to database
+2025-11-09 15:04:54,558 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:04:54] "POST /api/scrape HTTP/1.1" 200 -
+2025-11-09 15:05:08,652 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:05:08,655 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:05:08] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:05:38,648 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:05:38,653 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:05:38] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:06:08,644 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:06:08,648 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:06:08] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:06:38,645 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:06:38,647 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:06:38] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:07:08,643 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:08,649 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:07:08] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:07:38,659 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:38,661 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:07:38] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:07:44,260 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-09 15:07:44,288 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:44,288 - __main__ - INFO - Database initialized
+2025-11-09 15:07:44,289 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:07:44,289 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:07:44,289 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:07:44,290 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-09 15:07:44,290 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-09 15:07:44,290 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-09 15:07:44,291 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-09 15:07:44,291 - __main__ - INFO - Scheduler started
+2025-11-09 15:07:44,302 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.31.98.66:5000
+2025-11-09 15:07:44,302 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 15:07:44,302 - werkzeug - INFO -  * Restarting with stat
+2025-11-09 15:07:45,109 - app.utils.logger - INFO - Logger initialized successfully
+2025-11-09 15:07:45,135 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:45,135 - __main__ - INFO - Database initialized
+2025-11-09 15:07:45,136 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:07:45,137 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:07:45,137 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-11-09 15:07:45,137 - apscheduler.scheduler - INFO - Added job "TaskScheduler.scrape_jobs_task" to job store "default"
+2025-11-09 15:07:45,138 - apscheduler.scheduler - INFO - Added job "TaskScheduler.generate_content_task" to job store "default"
+2025-11-09 15:07:45,138 - apscheduler.scheduler - INFO - Scheduler started
+2025-11-09 15:07:45,138 - app.tasks.scheduler - INFO - Task scheduler started successfully
+2025-11-09 15:07:45,138 - __main__ - INFO - Scheduler started
+2025-11-09 15:07:45,146 - werkzeug - WARNING -  * Debugger is active!
+2025-11-09 15:07:45,147 - werkzeug - INFO -  * Debugger PIN: 141-134-830
+2025-11-09 15:07:45,194 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:45,201 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:07:45] "GET / HTTP/1.1" 200 -
+2025-11-09 15:07:45,217 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:45,231 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:07:45] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:07:45,235 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:45,239 - werkzeug - INFO - 127.0.0.1 - - [09/Nov/2025 15:07:45] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:07:45,655 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:45,656 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:07:45] "GET / HTTP/1.1" 200 -
+2025-11-09 15:07:46,073 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:46,075 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:07:46] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:07:46,238 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:07:46,241 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:07:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:08:16,084 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:08:16,086 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:08:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:08:46,085 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:08:46,088 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:08:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:09:16,081 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:16,083 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:09:46,085 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:46,088 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:09:48,086 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:48,087 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:48] "GET / HTTP/1.1" 200 -
+2025-11-09 15:09:48,402 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:48,403 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:48,404 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:48] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:09:48,405 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:48] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:09:48,563 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:09:48,563 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:09:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-09 15:10:16,082 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:10:16,084 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:10:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:10:46,101 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:10:46,104 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:10:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:11:16,082 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:11:16,084 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:11:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:11:46,143 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:11:46,145 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:11:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:11:48,026 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:11:48,026 - app.platforms.base_platform - INFO - Initialized Upwork platform
+2025-11-09 15:11:48,026 - app.tasks.job_scraper - INFO - Starting job scraping from upwork
+2025-11-09 15:11:48,027 - app.platforms.upwork.parser - INFO - Fetching jobs from Upwork category: reviews
+2025-11-09 15:11:48,117 - app.platforms.upwork.parser - INFO - Successfully fetched 0 jobs from Upwork
+2025-11-09 15:11:48,117 - app.filters.complexity_filter - INFO - ComplexityFilter: 0 -> 0 jobs
+2025-11-09 15:11:48,117 - app.filters.category_filter - INFO - CategoryFilter: 0 -> 0 jobs
+2025-11-09 15:11:48,117 - app.filters.price_filter - INFO - PriceFilter: 0 -> 0 jobs
+2025-11-09 15:11:48,118 - app.tasks.job_scraper - INFO - After filtering: 0 jobs remain
+2025-11-09 15:11:48,118 - app.tasks.job_scraper - INFO - Saved 0 new jobs to database
+2025-11-09 15:11:48,118 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:11:48] "POST /api/scrape HTTP/1.1" 200 -
+2025-11-09 15:11:50,819 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:11:50,821 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:11:50] "GET /api/jobs HTTP/1.1" 200 -
+2025-11-09 15:11:50,987 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:11:50,989 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:11:50] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:12:16,335 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:12:16,337 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:12:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:12:46,081 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:12:46,083 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:12:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:13:16,085 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:13:16,088 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:13:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:13:46,082 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:13:46,085 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:13:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:14:16,085 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:14:16,089 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:14:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:14:46,079 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:14:46,081 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:14:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:15:16,081 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:15:16,084 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:15:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:15:46,082 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:15:46,085 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:15:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:16:16,081 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:16:16,086 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:16:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:16:46,094 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:16:46,098 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:16:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:17:16,767 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:17:16,769 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:17:16] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:17:44,290 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-11-09 15:27:44 UTC)" (scheduled at 2025-11-09 15:17:44.289846+00:00)
+2025-11-09 15:17:44,290 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-11-09 15:17:44,302 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-11-09 15:17:44,302 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-11-09 15:17:44,303 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-11-09 15:27:44 UTC)" executed successfully
+2025-11-09 15:17:45,137 - apscheduler.executors.default - INFO - Running job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-11-09 15:27:45 UTC)" (scheduled at 2025-11-09 15:17:45.137193+00:00)
+2025-11-09 15:17:45,138 - app.tasks.scheduler - INFO - Running scheduled content generation
+2025-11-09 15:17:45,141 - app.tasks.content_generator - INFO - Processed 0 pending jobs
+2025-11-09 15:17:45,141 - app.tasks.scheduler - INFO - Generated content for 0 jobs
+2025-11-09 15:17:45,141 - apscheduler.executors.default - INFO - Job "TaskScheduler.generate_content_task (trigger: interval[0:10:00], next run at: 2025-11-09 15:27:45 UTC)" executed successfully
+2025-11-09 15:17:46,765 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:17:46,767 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:17:46] "GET /api/stats HTTP/1.1" 200 -
+2025-11-09 15:18:42,763 - app.database.session - INFO - Database initialized successfully
+2025-11-09 15:18:42,765 - werkzeug - INFO - 172.31.98.66 - - [09/Nov/2025 15:18:42] "GET /api/stats HTTP/1.1" 200 -

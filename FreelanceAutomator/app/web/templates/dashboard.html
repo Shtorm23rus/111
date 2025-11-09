@@ -1,0 +1,233 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Freelance AI Assistant{% endblock %}
+
+{% block extra_css %}
+<style>
+    .controls {
+        margin-bottom: 30px;
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .jobs-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .jobs-table th {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 15px;
+        text-align: left;
+        font-weight: 600;
+    }
+    
+    .jobs-table td {
+        padding: 12px 15px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .jobs-table tr:hover {
+        background: #f8f9fa;
+    }
+    
+    .status-badge {
+        display: inline-block;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-size: 0.85em;
+        font-weight: 600;
+    }
+    
+    .status-pending { background: #fff3cd; color: #856404; }
+    .status-in_progress { background: #cce5ff; color: #004085; }
+    .status-completed { background: #d4edda; color: #155724; }
+    .status-failed { background: #f8d7da; color: #721c24; }
+    
+    .complexity-badge {
+        display: inline-block;
+        padding: 2px 8px;
+        border-radius: 8px;
+        font-size: 0.8em;
+    }
+    
+    .complexity-1 { background: #d4edda; color: #155724; }
+    .complexity-2 { background: #fff3cd; color: #856404; }
+    .complexity-3 { background: #f8d7da; color: #721c24; }
+    
+    .loading {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+    }
+    
+    .btn-small {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div id="stats" class="stats-grid">
+    <div class="stat-card">
+        <h3 id="stat-total">0</h3>
+        <p>Всего заданий</p>
+    </div>
+    <div class="stat-card">
+        <h3 id="stat-pending">0</h3>
+        <p>В очереди</p>
+    </div>
+    <div class="stat-card">
+        <h3 id="stat-completed">0</h3>
+        <p>Выполнено</p>
+    </div>
+    <div class="stat-card">
+        <h3 id="stat-failed">0</h3>
+        <p>Ошибок</p>
+    </div>
+</div>
+
+<div class="controls">
+    <button class="btn" onclick="scrapeJobs()">🔍 Собрать задания</button>
+    <button class="btn" onclick="loadJobs()">🔄 Обновить список</button>
+    <select id="statusFilter" class="btn" onchange="loadJobs()">
+        <option value="">Все статусы</option>
+        <option value="pending">В очереди</option>
+        <option value="completed">Выполнено</option>
+        <option value="failed">Ошибки</option>
+    </select>
+</div>
+
+<div id="jobs-container">
+    <div class="loading">Загрузка...</div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+async function loadStats() {
+    try {
+        const response = await fetch('/api/stats');
+        const stats = await response.json();
+        
+        document.getElementById('stat-total').textContent = stats.total_jobs;
+        document.getElementById('stat-pending').textContent = stats.pending;
+        document.getElementById('stat-completed').textContent = stats.completed;
+        document.getElementById('stat-failed').textContent = stats.failed;
+    } catch (error) {
+        console.error('Error loading stats:', error);
+    }
+}
+
+async function loadJobs() {
+    const container = document.getElementById('jobs-container');
+    container.innerHTML = '<div class="loading">Загрузка...</div>';
+    
+    try {
+        const status = document.getElementById('statusFilter').value;
+        const url = status ? `/api/jobs?status=${status}` : '/api/jobs';
+        
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        if (data.jobs.length === 0) {
+            container.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">Нет заданий</p>';
+            return;
+        }
+        
+        let html = '<table class="jobs-table"><thead><tr>';
+        html += '<th>ID</th><th>Название</th><th>Категория</th><th>Бюджет</th>';
+        html += '<th>Сложность</th><th>Статус</th><th>Действия</th>';
+        html += '</tr></thead><tbody>';
+        
+        data.jobs.forEach(job => {
+            html += `<tr>
+                <td>${job.job_id.substring(0, 8)}...</td>
+                <td><strong>${job.title}</strong><br><small>${job.description}</small></td>
+                <td>${job.category || 'N/A'}</td>
+                <td>${job.budget ? '$' + job.budget : 'N/A'}</td>
+                <td><span class="complexity-badge complexity-${job.complexity}">Level ${job.complexity}</span></td>
+                <td><span class="status-badge status-${job.status}">${job.status}</span></td>
+                <td>
+                    ${job.status === 'pending' ? `<button class="btn btn-small" onclick="generateContent('${job.job_id}')">Сгенерировать</button>` : ''}
+                    ${job.status === 'completed' ? `<button class="btn btn-small" onclick="viewContent('${job.job_id}')">Просмотр</button>` : ''}
+                </td>
+            </tr>`;
+        });
+        
+        html += '</tbody></table>';
+        container.innerHTML = html;
+        
+    } catch (error) {
+        console.error('Error loading jobs:', error);
+        container.innerHTML = '<p style="text-align: center; padding: 40px; color: red;">Ошибка загрузки</p>';
+    }
+}
+
+async function scrapeJobs() {
+    if (!confirm('Начать сбор новых заданий с Upwork?')) return;
+    
+    try {
+        const response = await fetch('/api/scrape', { method: 'POST' });
+        const result = await response.json();
+        
+        alert(`Найдено: ${result.jobs_found} заданий\nСохранено: ${result.jobs_saved} новых заданий`);
+        loadJobs();
+        loadStats();
+    } catch (error) {
+        console.error('Error scraping:', error);
+        alert('Ошибка при сборе заданий');
+    }
+}
+
+async function generateContent(jobId) {
+    if (!confirm('Сгенерировать контент для этого задания?')) return;
+    
+    try {
+        const response = await fetch(`/api/generate/${jobId}`, { method: 'POST' });
+        const result = await response.json();
+        
+        if (result.status === 'success') {
+            alert('Контент успешно сгенерирован!');
+            loadJobs();
+            loadStats();
+        } else {
+            alert('Ошибка генерации контента');
+        }
+    } catch (error) {
+        console.error('Error generating:', error);
+        alert('Ошибка генерации контента');
+    }
+}
+
+async function viewContent(jobId) {
+    try {
+        const response = await fetch(`/api/jobs/${jobId}/content`);
+        const data = await response.json();
+        
+        if (data.content.length === 0) {
+            alert('Контент не найден');
+            return;
+        }
+        
+        const content = data.content[0];
+        alert(`Сгенерированный контент:\n\n${content.generated_text}`);
+    } catch (error) {
+        console.error('Error viewing content:', error);
+        alert('Ошибка загрузки контента');
+    }
+}
+
+loadJobs();
+loadStats();
+setInterval(() => { loadStats(); }, 30000);
+</script>
+{% endblock %}
